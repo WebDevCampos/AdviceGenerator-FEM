@@ -82,4 +82,7 @@ blockquote {
     padding: 1rem;
     border-radius: 1rem;
   }
+  .dice {
+    left: 43.5%;
+  }
 }
