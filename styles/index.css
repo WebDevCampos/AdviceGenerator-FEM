@@ -1,0 +1,55 @@
+@import url(./reset.css);
+:root {
+  --light-cyan: hsl(193, 38%, 86%);
+  --neon-green: hsl(150, 100%, 66%);
+  --grayish-blue: hsl(217, 19%, 38%);
+  --dark-grayish-blue: hsl(217, 19%, 24%);
+  --dark-blue: hsl(218, 23%, 16%);
+}
+body {
+  background: var(--dark-blue);
+}
+main {
+  max-width: 45rem;
+  margin: 0 auto;
+  background: var(--dark-grayish-blue);
+  padding: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  position: relative;
+}
+h1,
+h1 span {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+h1 {
+  text-align: center;
+}
+blockquote {
+  font-size: clamp(2rem, 4vw, 5rem);
+  text-align: center;
+  padding: 2rem;
+}
+
+.dice {
+  bottom: -2rem;
+  width: 5rem;
+  height: 5rem;
+  position: relative;
+  background: var(--neon-green);
+  padding: 0.2rem;
+  border-radius: 50%;
+  left: 45%;
+  display: grid;
+  place-items: center;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
