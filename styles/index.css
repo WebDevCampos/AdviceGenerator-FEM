@@ -74,3 +74,12 @@ blockquote {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media screen and (max-width: 500px) {
+  main {
+    max-width: 37rem;
+    margin: 0;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+}
