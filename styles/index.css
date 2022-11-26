@@ -25,19 +25,18 @@ main {
   display: flex;
   flex-direction: column;
   position: relative;
-align-items:center;
-justify-content:center;
+  align-items: center;
+  justify-content: center;
 }
 h1,
 h1 span {
   font-size: 2rem;
   margin-top: 2rem;
-font-weight:400;
+  font-weight: 400;
 }
 h1 {
   text-align: center;
   color: var(--neon-green);
-
 }
 blockquote {
   font-size: clamp(2rem, 4vw, 2.8rem);
@@ -45,7 +44,7 @@ blockquote {
   line-height: 1.3;
   padding: 2rem 3rem;
   color: var(--light-cyan);
-margin:2rem 0;
+  margin: 2rem 0;
 }
 
 .dice {
@@ -56,7 +55,7 @@ margin:2rem 0;
   background: var(--neon-green);
   padding: 0.2rem;
   border-radius: 50%;
-  left: 44.5%;
+  left: 0;
   display: grid;
   place-items: center;
 }
@@ -85,8 +84,5 @@ margin:2rem 0;
     max-width: 37rem;
     padding: 0;
     border-radius: 1rem;
-  }
-  .dice {
-    left: 43.5%;
   }
 }
