@@ -7,6 +7,7 @@ const generateRandomSentence = () => {
     .then((data) => {
       adviceId.innerText = data.slip.id;
       adviceText.innerText = `'${data.slip.advice}'`;
+      console.log(data);
     });
 };
 

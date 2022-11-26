@@ -59,9 +59,13 @@ blockquote {
   display: grid;
   place-items: center;
 }
+
 .dice:hover {
   cursor: pointer;
   box-shadow: 0rem 0rem 3rem var(--neon-green);
+}
+.dice img:active {
+  animation: rotate 0.3s 2;
 }
 .attribution {
   padding: 0.4rem;
@@ -78,7 +82,14 @@ blockquote {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-
+@keyframes rotate {
+  0% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(720deg);
+  }
+}
 @media screen and (max-width: 500px) {
   main {
     max-width: 37rem;
