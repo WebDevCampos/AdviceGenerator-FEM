@@ -30,9 +30,9 @@ main {
 }
 h1,
 h1 span {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-top: 2rem;
-  font-weight: 400;
+  font-weight: lighter;
 }
 h1 {
   text-align: center;
